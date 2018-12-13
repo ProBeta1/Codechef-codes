@@ -26,8 +26,8 @@ int main()
 		{
 			for(j=1;j<=min(m,mp[i]);j++)
 			{
-				if(mp[j]>=i && mp[i]>=j)
-					c++;
+			if(mp[j]>=i && mp[i]>=j)
+				c++;
 			}
 		}
 	
